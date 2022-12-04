@@ -1,0 +1,86 @@
+.homepage-contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px 100px;
+}
+
+/* left side */
+.homepage-contents-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.Elaina-img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0px 3px 8px 0px rgb(0, 0, 0, 0.4);
+  transition-property: transform, box-shadow;
+  transition-duration: 0.3s;
+  opacity: 1;
+}
+
+.cv-button {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #091405;
+  color: #c5c7c4;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 1px;
+  border: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.cv-button:hover {
+  background-color: #c5c7c4;
+  color: #091405;
+}
+
+/* right side */
+.homepage-contents-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.contents-info {
+  width: 400px;
+  height: 400px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 40px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+.work-button {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  color: #091405;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 1px;
+  border: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.work-button:hover {
+  background-color: #c5c7c4;
+  color: #091405;
+}

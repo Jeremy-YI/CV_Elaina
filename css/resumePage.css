@@ -1,0 +1,31 @@
+.resume-page-contents {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0;
+  padding: 100px;
+}
+
+.experience {
+  margin-top: 50px;
+}
+
+.education-title,
+.experience-title,
+h2 {
+  font-size: 30px;
+}
+
+.education-time {
+  font-size: 14px;
+  color: gray;
+}
+
+.experience-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.li,
+p {
+  font-size: 12px;
+}

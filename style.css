@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "./css/header.css";
+@import "./css/footer.css";
+@import "./css/homePage.css";
+@import "./css/resumePage.css";
+@import "./css/portfolioPage.css";
+@import "./css/blogPage.css";
+@import "./css/contactPage.css";
+
+:root {
+  /* main */
+  --background-color: #f5f5f5;
+  /* header */
+  --header-background-color: #ffffff;
+  --header-bottom-color: #e4e4e4;
+  --nav-item-color: #7f8893;
+  --nav-item-hover-color: #1da1f2;
+  /* home */
+
+  /* Resume */
+
+  /* Portfolio */
+
+  /* Contact */
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+}
+
+.page {
+  overflow-y: auto;
+  border-bottom: 1px solid black;
+}
