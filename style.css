@@ -1,41 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import "./css/header.css";
-@import "./css/footer.css";
-@import "./css/homePage.css";
-@import "./css/resumePage.css";
-@import "./css/portfolioPage.css";
-@import "./css/blogPage.css";
-@import "./css/contactPage.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import './css/header.css';
+@import './css/homePage.css';
+@import './css/resumePage.css';
+@import './css/portfolioPage.css';
+@import './css/blogPage.css';
+@import './css/contactPage.css';
+@import './css/footer.css';
 
 :root {
   /* main */
   --background-color: #f5f5f5;
+  --margin: 5rem 0rem;
+
   /* header */
   --header-background-color: #ffffff;
-  --header-bottom-color: #e4e4e4;
   --nav-item-color: #7f8893;
   --nav-item-hover-color: #1da1f2;
-  /* home */
 
-  /* Resume */
+  /* Home page */
+  --cv-button-color: #091405;
+  --cv-button-text-color: #ffffff;
+  --work-button-color: #f5f5f5;
+  --work-button-text-color: #091405;
+  --cv-button-hover-color: #c5c7c4;
+  --cv-button-hover-text-cloor: #091405;
+  --work-button-hover-color: #c5c7c4;
+  --work-button-text-color: #091405;
+  /* Resume page */
 
   /* Portfolio */
-
+  --button-background-color: white;
+  --button-active-color: #1da1f2;
+  --border-color: #091405;
+  /* Blog */
   /* Contact */
 }
 
-* {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: var(--background-color);
+  font-family: 'Roboto', Sans-Serif;
 }
 
 .container {

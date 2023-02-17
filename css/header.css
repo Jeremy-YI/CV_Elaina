@@ -1,30 +1,25 @@
 .nav {
   display: flex;
-  padding: 10px;
+  padding: 1rem;
   background-color: var(--header-background-color);
-  border-color: black;
   align-items: center;
-  border-radius: 20px;
-  z-index: 999;
+  border-radius: 2rem;
+  z-index: 1;
 }
 
 .nav-left {
   flex: 1;
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 
-.grid-logo {
-  font-size: 16px;
-}
-
 .nav-right {
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 
 .navbar {
@@ -35,12 +30,12 @@
   justify-content: flex-end;
   text-decoration: none;
   color: var(--nav-item-color);
-  font-size: 18px;
+  font-size: 1.8rem;
   opacity: 0.8;
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 .navbar-item:hover {
   color: var(--nav-item-hover-color);
-  opacity: 1;
+  opacity: 0.8;
 }

@@ -2,30 +2,32 @@
   display: flex;
   flex-direction: column;
   letter-spacing: 0;
-  padding: 100px;
+  padding: 10rem;
 }
 
 .experience {
-  margin-top: 50px;
+  margin: var(--margin);
 }
 
 .education-title,
 .experience-title,
 h2 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .education-time {
-  font-size: 14px;
+  font-size: 1, 4rem;
   color: gray;
 }
 
 .experience-contents {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
 }
 
 .li,
 p {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
