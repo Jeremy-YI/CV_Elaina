@@ -75,7 +75,7 @@ h2 {
   text-decoration: none;
   background-color: var(--work-button-color);
   color: var(--work-button-text-color);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   border-radius: 1px;
   border: none;
@@ -85,4 +85,55 @@ h2 {
 .work-button:hover {
   background-color: var(--work-button-hover-color);
   color: var(--work-button-text-color);
+}
+
+@media screen and (max-width: 50rem) {
+  .homepage-contents {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10rem 5rem;
+  }
+
+  /* left side */
+  .homepage-contents-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Elaina-img {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .cv-button {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  /* right side */
+  .homepage-contents-right {
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .contents-info {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .contents-info p {
+    margin-bottom: 4px;
+    font-size: 1.4rem;
+  }
+
+  .work-button {
+    display: none;
+  }
 }

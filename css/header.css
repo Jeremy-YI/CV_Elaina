@@ -39,3 +39,16 @@
   color: var(--nav-item-hover-color);
   opacity: 0.8;
 }
+
+@media screen and (max-width: 50rem) {
+  .logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  .navbar-item {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    padding: 1rem;
+  }
+}

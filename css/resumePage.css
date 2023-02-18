@@ -31,3 +31,18 @@ h2 {
 p {
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 50rem) {
+  .education-title,
+  .experience-title,
+  h2 {
+    font-size: 2rem;
+  }
+
+  .experience-contents {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+}

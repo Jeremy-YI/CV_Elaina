@@ -1,6 +1,14 @@
 .video {
   display: block;
-  margin: 0 auto;
   width: 100rem;
   height: 80rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 60rem) {
+  .video {
+    width: 40rem;
+    height: 30rem;
+  }
 }
